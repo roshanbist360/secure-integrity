@@ -595,4 +595,7 @@ color: #1e2025;
         display: flex;
         flex-direction: column-reverse;
     }
+    .quote_container{
+        margin-top: 0px;
+    }
 }

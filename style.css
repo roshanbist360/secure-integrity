@@ -589,6 +589,14 @@ color: #1e2025;
     background: #ccc;
 }
 
+.breatcam-content p{
+  width: 70%;
+}
+@media screen and (max-width: 1200px) {
+    .breatcam-content p{
+        width: 100%;
+      }
+}
 
 @media screen and (max-width: 992px) {
     .online_meeting_row{
@@ -597,5 +605,55 @@ color: #1e2025;
     }
     .quote_container{
         margin-top: 0px;
+    }
+}
+
+
+.about_section{
+    padding-bottom: 30px;
+}
+.professional_profile_section .container{
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.service_section_main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.products_section{
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.in_person_section{
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.online_meeting_section{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.partners_section_home{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.about_section_sd{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.about_section_about_page{
+    padding-top: 70px;
+    padding-bottom: 70px;  
+}
+@media screen and (max-width: 1200px) {
+    .professional_profile_section .row_marginnn{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .about_section{
+        padding-top: 80px;
+    }
+    .about_section_about_page{
+        padding-top: 50px;
     }
 }

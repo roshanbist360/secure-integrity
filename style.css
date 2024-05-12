@@ -608,6 +608,12 @@ color: #1e2025;
     }
 }
 
+.Err_image img{
+   height: 100%; 
+   width: 100%;
+   object-fit: cover;
+}
+
 
 .about_section{
     padding-bottom: 30px;
